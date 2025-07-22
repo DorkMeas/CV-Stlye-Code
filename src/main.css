@@ -1,0 +1,49 @@
+
+/* 
+Devoloped by Dork Meas
+Gmail : dorkmeas@gmail.com
+Date : 22/07/2025
+*/
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #0f111a;
+  color: white;
+}
+.part {
+  display: flex;
+  flex-direction: column;
+  padding-left: 35px;
+}
+.profile {
+  float: left;
+}
+.image {
+  margin-right: 1rem;
+  border-left: dashed;
+}
+.image img {
+  border: 1px solid #66d9ef;
+  border-radius: 4px;
+  width: 120px;
+  margin-left: 10px;
+}
+
+.code{
+  border-left: dashed;
+  margin-left: 8px;
+}
+.code-ch{
+  border-left: dashed;
+  margin-left: 22px;
+}
+.keyword {
+  color: #f92672;
+}
+.string {
+  color: #e6db74;
+}
+.comment {
+  color: #75715e;
+}
